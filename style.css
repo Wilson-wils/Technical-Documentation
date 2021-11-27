@@ -1,0 +1,45 @@
+#navbar {
+    position: fixed;
+    min-width: 290px;
+    top: 0px;
+    left: 0px;
+    width: 300px;
+    height: 100%;
+    border-right: solid;
+    border-color: rgba(0, 22, 22, 0.4);
+}
+
+#navbar ul{
+    padding: 10px;
+    display: block;
+}
+
+#navbar li{
+    padding-left: 20px;
+    position: inherit;
+    width: auto;
+}
+#navbar header{
+    padding-left: 25px;
+    font-size: 28px;
+}
+
+#navbar a{
+    text-decoration: none;
+}
+
+#main-doc {
+    position: absolute;
+    margin-left: 310px;
+    padding: 20px;
+    margin-bottom: 110px;
+}
+
+code{
+    display: block;
+    text-shadow: 5px;
+    background-color: darkgray;
+    padding: 10px;
+    line-height: 1.5;
+}
+@media only screen and (max-width: 815px) {}
